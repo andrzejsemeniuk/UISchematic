@@ -7,7 +7,12 @@
 		<key>UISchematic.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+		<key>UISchematicShowcase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>57E4E2351F191BB500BCD6E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57F209511F191C5E00CDEABB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57F209641F191C5F00CDEABB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

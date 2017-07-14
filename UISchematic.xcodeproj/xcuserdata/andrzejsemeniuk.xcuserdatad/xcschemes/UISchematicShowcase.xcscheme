@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57E4E22C1F191BB500BCD6E4"
-               BuildableName = "UISchematic.framework"
-               BlueprintName = "UISchematic"
+               BlueprintIdentifier = "57F209511F191C5E00CDEABB"
+               BuildableName = "UISchematicShowcase.app"
+               BlueprintName = "UISchematicShowcase"
                ReferencedContainer = "container:UISchematic.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57E4E2351F191BB500BCD6E4"
-               BuildableName = "UISchematicTests.xctest"
-               BlueprintName = "UISchematicTests"
+               BlueprintIdentifier = "57F209641F191C5F00CDEABB"
+               BuildableName = "UISchematicShowcaseUITests.xctest"
+               BlueprintName = "UISchematicShowcaseUITests"
                ReferencedContainer = "container:UISchematic.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57E4E22C1F191BB500BCD6E4"
-            BuildableName = "UISchematic.framework"
-            BlueprintName = "UISchematic"
+            BlueprintIdentifier = "57F209511F191C5E00CDEABB"
+            BuildableName = "UISchematicShowcase.app"
+            BlueprintName = "UISchematicShowcase"
             ReferencedContainer = "container:UISchematic.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -61,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57E4E22C1F191BB500BCD6E4"
-            BuildableName = "UISchematic.framework"
-            BlueprintName = "UISchematic"
+            BlueprintIdentifier = "57F209511F191C5E00CDEABB"
+            BuildableName = "UISchematicShowcase.app"
+            BlueprintName = "UISchematicShowcase"
             ReferencedContainer = "container:UISchematic.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57E4E22C1F191BB500BCD6E4"
-            BuildableName = "UISchematic.framework"
-            BlueprintName = "UISchematic"
+            BlueprintIdentifier = "57F209511F191C5E00CDEABB"
+            BuildableName = "UISchematicShowcase.app"
+            BlueprintName = "UISchematicShowcase"
             ReferencedContainer = "container:UISchematic.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
