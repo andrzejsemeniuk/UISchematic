@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C906604BF3A681960E30FA /* Pods_UISchematicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A9A50CB7CDB3B0307037E2 /* Pods_UISchematicTests.framework */; };
 		57E4E2371F191BB500BCD6E4 /* UISchematic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E4E22D1F191BB500BCD6E4 /* UISchematic.framework */; };
 		57E4E23C1F191BB500BCD6E4 /* UISchematicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E4E23B1F191BB500BCD6E4 /* UISchematicTests.swift */; };
 		57E4E23E1F191BB500BCD6E4 /* UISchematic.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E4E2301F191BB500BCD6E4 /* UISchematic.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +20,7 @@
 		57F2096A1F191C5F00CDEABB /* UISchematicShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F209691F191C5F00CDEABB /* UISchematicShowcaseUITests.swift */; };
 		57F209741F191C7900CDEABB /* UISchematic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E4E22D1F191BB500BCD6E4 /* UISchematic.framework */; };
 		57F209761F191C9900CDEABB /* UISchematic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F209751F191C9900CDEABB /* UISchematic.swift */; };
+		A7A855027B89EAAB88DF1F44 /* Pods_UISchematic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97140ED159076335F674BA17 /* Pods_UISchematic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD7D3DDCCCC981D89D73E6C /* Pods-UISchematic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISchematic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UISchematic/Pods-UISchematic.debug.xcconfig"; sourceTree = "<group>"; };
+		25053027109C41B84C64437D /* Pods-UISchematicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISchematicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UISchematicTests/Pods-UISchematicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		25A9A50CB7CDB3B0307037E2 /* Pods_UISchematicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UISchematicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E4E22D1F191BB500BCD6E4 /* UISchematic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UISchematic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57E4E2301F191BB500BCD6E4 /* UISchematic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISchematic.h; sourceTree = "<group>"; };
 		57E4E2311F191BB500BCD6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +90,9 @@
 		57F209691F191C5F00CDEABB /* UISchematicShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISchematicShowcaseUITests.swift; sourceTree = "<group>"; };
 		57F2096B1F191C5F00CDEABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57F209751F191C9900CDEABB /* UISchematic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISchematic.swift; sourceTree = "<group>"; };
+		6C2F4411938E7C6C05F732FE /* Pods-UISchematic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISchematic.release.xcconfig"; path = "Pods/Target Support Files/Pods-UISchematic/Pods-UISchematic.release.xcconfig"; sourceTree = "<group>"; };
+		8822D2ECE45E6FEACABDD087 /* Pods-UISchematicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UISchematicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UISchematicTests/Pods-UISchematicTests.release.xcconfig"; sourceTree = "<group>"; };
+		97140ED159076335F674BA17 /* Pods_UISchematic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UISchematic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F2094B1F191C3900CDEABB /* ASToolkit.framework in Frameworks */,
+				A7A855027B89EAAB88DF1F44 /* Pods_UISchematic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E4E2371F191BB500BCD6E4 /* UISchematic.framework in Frameworks */,
+				38C906604BF3A681960E30FA /* Pods_UISchematicTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +141,8 @@
 				57F209531F191C5E00CDEABB /* UISchematicShowcase */,
 				57F209681F191C5F00CDEABB /* UISchematicShowcaseUITests */,
 				57E4E22E1F191BB500BCD6E4 /* Products */,
+				891C56F7C2016712D7E6A2A5 /* Pods */,
+				B17920DEB6B3318992B755E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,6 +207,26 @@
 			path = UISchematicShowcaseUITests;
 			sourceTree = "<group>";
 		};
+		891C56F7C2016712D7E6A2A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7D3DDCCCC981D89D73E6C /* Pods-UISchematic.debug.xcconfig */,
+				6C2F4411938E7C6C05F732FE /* Pods-UISchematic.release.xcconfig */,
+				25053027109C41B84C64437D /* Pods-UISchematicTests.debug.xcconfig */,
+				8822D2ECE45E6FEACABDD087 /* Pods-UISchematicTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B17920DEB6B3318992B755E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97140ED159076335F674BA17 /* Pods_UISchematic.framework */,
+				25A9A50CB7CDB3B0307037E2 /* Pods_UISchematicTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -213,10 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E4E2411F191BB500BCD6E4 /* Build configuration list for PBXNativeTarget "UISchematic" */;
 			buildPhases = (
+				FCB7CCB77C16DC189BE46319 /* [CP] Check Pods Manifest.lock */,
 				57E4E2281F191BB500BCD6E4 /* Sources */,
 				57E4E2291F191BB500BCD6E4 /* Frameworks */,
 				57E4E22A1F191BB500BCD6E4 /* Headers */,
 				57E4E22B1F191BB500BCD6E4 /* Resources */,
+				B19DFEF4FCCB8FA107F70618 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57E4E2441F191BB500BCD6E4 /* Build configuration list for PBXNativeTarget "UISchematicTests" */;
 			buildPhases = (
+				23C531C76A5E8EA54EA90639 /* [CP] Check Pods Manifest.lock */,
 				57E4E2321F191BB500BCD6E4 /* Sources */,
 				57E4E2331F191BB500BCD6E4 /* Frameworks */,
 				57E4E2341F191BB500BCD6E4 /* Resources */,
+				1B37637FFC252AA86B7C5014 /* [CP] Embed Pods Frameworks */,
+				6618AE7A7DB505BDEFAF7D6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -393,6 +430,90 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B37637FFC252AA86B7C5014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISchematicTests/Pods-UISchematicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23C531C76A5E8EA54EA90639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UISchematicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6618AE7A7DB505BDEFAF7D6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISchematicTests/Pods-UISchematicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19DFEF4FCCB8FA107F70618 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UISchematic/Pods-UISchematic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB7CCB77C16DC189BE46319 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UISchematic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57E4E2281F191BB500BCD6E4 /* Sources */ = {
@@ -576,6 +697,7 @@
 		};
 		57E4E2421F191BB500BCD6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD7D3DDCCCC981D89D73E6C /* Pods-UISchematic.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -597,6 +719,7 @@
 		};
 		57E4E2431F191BB500BCD6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2F4411938E7C6C05F732FE /* Pods-UISchematic.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -617,6 +740,7 @@
 		};
 		57E4E2451F191BB500BCD6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25053027109C41B84C64437D /* Pods-UISchematicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5AKM62S97F;
@@ -630,6 +754,7 @@
 		};
 		57E4E2461F191BB500BCD6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8822D2ECE45E6FEACABDD087 /* Pods-UISchematicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 5AKM62S97F;
@@ -732,6 +857,7 @@
 				57F2096E1F191C5F00CDEABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57F2096F1F191C5F00CDEABB /* Build configuration list for PBXNativeTarget "UISchematicShowcaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +866,7 @@
 				57F209711F191C5F00CDEABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
